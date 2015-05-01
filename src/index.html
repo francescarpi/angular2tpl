@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Angular 2 Template</title>
+
+    <link href="css/main.css" media="all" rel="stylesheet" />
+
+    <!-- Importaciones ES6 -->
+    <script src="lib/traceur-runtime.js"></script>
+    <script src="lib/es6-module-loader-sans-promises.src.js"></script>
+    <script src="lib/extension-register.js"></script>
+    <script>register(System);</script>
+
+    <!-- Importaciones Angular2 -->
+    <script src="lib/zone.js"></script>
+    <script src="lib/long-stack-trace-zone.js"></script>
+    <script src="lib/angular2.js"></script>
+
+  </head>
+
+  <body>
+  </body>
+
+  <!-- Arranque de la aplicación -->
+  <script>
+      System.import('app').catch(console.log.bind(console));
+  </script>
+</html>
