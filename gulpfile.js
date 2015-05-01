@@ -80,7 +80,7 @@ gulp.task('js', ['libs'], function() {
 
 
 /* Servidor web simple */
-gulp.task('dev', function() {
+gulp.task('dev', ['html', 'css', 'js'], function() {
 
     /* Observamos distintos tipos de ficheros, al ser modificados, los trasladamos a la carpeta dist */
     gulp.watch(PATHS.src.html, ['html']);
