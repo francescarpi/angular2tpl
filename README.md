@@ -18,4 +18,4 @@ npm install
 gulp dev
 </pre>
 
-Ejecuta el servidor de desarrollo. Estará escuchando los cambios y compilándolos a la carpeta de **dest**. Por defecto arranca en el puerto **8000*
+Ejecuta el servidor de desarrollo. Estará escuchando los cambios y compilándolos a la carpeta de **dest**. Por defecto arranca en el puerto **8000**.
